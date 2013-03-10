@@ -1,7 +1,7 @@
 <resources>
 
     <string name="app_name">SatelliteImage</string>
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Hello world!!! Changes here</string>
     <string name="menu_settings">Settings</string>
     <string name="title_activity_home">Satellite Image</string>
     <drawable name="icon">#00FF0000</drawable>
