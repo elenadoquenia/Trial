@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <EditText
+        android:id="@+id/editTextUrl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/url"
+        android:inputType="none" >
+
+</EditText>
+
+    <Button
+        android:id="@+id/buttonGetImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextUrl"
+        android:text="@string/getimage" >
+      
+    </Button>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/buttonGetImage"
+        android:contentDescription="@string/getimage"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:src="@drawable/filler" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextUrl"
+        android:layout_toRightOf="@+id/buttonGetImage"
+        />
+
+</RelativeLayout>
